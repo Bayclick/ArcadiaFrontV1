@@ -22,13 +22,19 @@ h1, h2, h3, h4, h5, h6 {
     font-family: $font-family-serif;
   }
 
-//Navbar
 
+// Styles spécifiques pour la NAVBAR
 .navbar {
-  background-color: $primary;
+  background-color: $primary !important;
 }
 
 .navbar .nav-link,
 .navbar .navbar-brand {
   color: $dark !important; // Texte de la navbar en couleur dark
+  padding: 0 70px; 
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: $secondary !important; // Couleur du texte au survol
 }
