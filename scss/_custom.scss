@@ -22,4 +22,13 @@ h1, h2, h3, h4, h5, h6 {
     font-family: $font-family-serif;
   }
 
-  
+//Navbar
+
+.navbar {
+  background-color: $primary;
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand {
+  color: $dark !important; // Texte de la navbar en couleur dark
+}
