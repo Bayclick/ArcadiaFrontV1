@@ -11966,6 +11966,11 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-family: "Fredoka", sans-serif;
 }
@@ -11976,6 +11981,7 @@ body {
 
 .navbar {
   background-color: #A1AA75;
+  --bs-navbar-padding-x: 5px;
 }
 .navbar .nav-link,
 .navbar .navbar-brand {
@@ -11995,4 +12001,48 @@ body {
 
 .navbar-logo {
   height: 70px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.footer .footer-hours {
+  background-color: #E0D05C;
+  border: 2px solid #d8c431;
+  border-radius: 10px;
+  padding: 20px;
+  color: #3A2A10;
+}
+.footer .footer-hours h4, .footer .footer-hours .h4 {
+  font-weight: bold;
+}
+.footer .footer-hours ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+.footer .footer-hours ul li {
+  padding: 5px 0;
+}
+.footer .footer-legal {
+  color: #3A2A10;
+  margin-bottom: 20px;
+}
+.footer .footer-legal address {
+  font-style: normal;
+}
+.footer .footer-social a {
+  color: #3A2A10;
+  margin: 0 10px;
+  text-decoration: none;
+}
+.footer .footer-social a:hover {
+  color: #E0D05C;
+}
+.footer .footer-social i {
+  margin: 0 10px;
+}
+.footer .footer-copyright {
+  color: #3A2A10;
 }/*# sourceMappingURL=main.css.map */

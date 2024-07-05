@@ -13,6 +13,10 @@ $font-family-serif: "Lato", serif !default;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+html{
+  position: relative;
+  min-height: 100%;
+}
 // Application des polices
 h1, h2, h3, h4, h5, h6 {
     font-family: $font-family-sans-serif;
@@ -23,9 +27,10 @@ h1, h2, h3, h4, h5, h6 {
   }
 
 
-// Styles spécifiques pour la _NAVBAR_
+// Styles spécifiques pour la navbar
 .navbar {
   background-color: $primary;
+  --bs-navbar-padding-x: 5px; // Définition de la variable CSS native
 
   .nav-link,
   .navbar-brand {
@@ -49,4 +54,62 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-logo {
   height: 70px; // Ajustez la hauteur du logo selon vos besoins
+}
+
+
+// Styles pour le footer
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+  .footer-hours {
+    background-color: $tertiary;
+    border: 2px solid darken($tertiary, 10%);
+    border-radius: 10px;
+    padding: 20px;
+    color: $dark;
+    
+    h4 {
+      font-weight: bold;
+    }
+
+    ul {
+      padding-left: 0;
+      list-style-type: none;
+
+      li {
+        padding: 5px 0;
+      }
+    }
+  }
+
+  .footer-legal {
+    color: $dark;
+    margin-bottom: 20px;
+
+    address {
+      font-style: normal;
+    }
+  }
+
+  .footer-social {
+    a {
+      color: $dark;
+      margin: 0 10px;
+      text-decoration: none;
+
+      &:hover {
+        color: $tertiary;
+      }
+    }
+  }
+
+  .footer-social i {
+    margin: 0 10px;
+  }
+
+  .footer-copyright {
+    color: $dark;
+  }
 }
