@@ -11977,18 +11977,15 @@ body {
 .navbar {
   background-color: #A1AA75;
 }
-
 .navbar .nav-link,
 .navbar .navbar-brand {
   color: #3A2A10;
-  padding: 0 70px;
 }
-
-.navbar .nav-link:hover,
-.navbar .nav-link:focus {
+.navbar .nav-link:hover, .navbar .nav-link:focus,
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
   color: #5D6537;
 }
-
-.navbar-toggler {
-  border-color: #3A2A10 !important;
+.navbar .navbar-toggler {
+  border-color: #A1AA75 !important;
 }/*# sourceMappingURL=main.css.map */

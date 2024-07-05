@@ -26,20 +26,19 @@ h1, h2, h3, h4, h5, h6 {
 // Styles spécifiques pour la NAVBAR
 .navbar {
   background-color: $primary;
-}
 
-.navbar .nav-link,
-.navbar .navbar-brand {
-  color: $dark; // Texte de la navbar en couleur dark
-  padding: 0 70px; 
-}
+  .nav-link,
+  .navbar-brand {
+    color: $dark; // Texte de la navbar en couleur dark
 
-.navbar .nav-link:hover,
-.navbar .nav-link:focus {
-  color: $secondary; // Couleur du texte au survol
-}
+    &:hover,
+    &:focus {
+      color: $secondary; // Couleur du texte au survol
+    }
+  }
 
-// Style pour le menu burger
-.navbar-toggler {
-  border-color: $dark !important; // Couleur de la bordure du bouton burger
+  // Style pour le menu burger
+  .navbar-toggler {
+    border-color: $primary !important; // Couleur de la bordure du bouton burger
+  }
 }
