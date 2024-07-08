@@ -42,3 +42,27 @@
     margin-bottom: 50px;
   }
   
+// CarouselAvis
+
+.img-darken {
+    filter: brightness(50%);
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); /* Optional: Add background for better text readability */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .carousel-caption p {
+    font-size: 1.25rem;
+  }
+  
+  .blockquote-footer {
+    font-size: 1rem;
+  }
+  
