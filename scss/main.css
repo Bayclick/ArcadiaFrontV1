@@ -12072,6 +12072,15 @@ body {
   justify-content: center;
 }
 
+.custom-size {
+  min-width: 300px;
+  width: 100%; /* S'assure que l'image est responsive */
+}
+
 .text-justify {
   text-align: justify;
+}
+
+.mb-custom {
+  margin-bottom: 50px;
 }/*# sourceMappingURL=main.css.map */
