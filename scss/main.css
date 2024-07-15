@@ -12047,6 +12047,51 @@ body {
   color: #3A2A10;
 }
 
+@media (max-width: 1200px) {
+  .carousel-caption {
+    top: 60%;
+    transform: translateY(-60%);
+  }
+}
+@media (max-width: 992px) {
+  .carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .form-group label {
+    font-size: 1rem;
+  }
+  .form-group input,
+  .form-group textarea {
+    font-size: 0.875rem;
+  }
+}
+@media (max-width: 768px) {
+  .carousel-caption {
+    top: 40%;
+    transform: translateY(-40%);
+  }
+  .form-group label {
+    font-size: 0.875rem;
+  }
+  .form-group input,
+  .form-group textarea {
+    font-size: 0.75rem;
+  }
+}
+@media (max-width: 576px) {
+  .carousel-caption {
+    top: 30%;
+    transform: translateY(-30%);
+  }
+  .form-group label {
+    font-size: 0.75rem;
+  }
+  .form-group input,
+  .form-group textarea {
+    font-size: 0.625rem;
+  }
+}
 .hero-scene {
   position: relative;
 }
