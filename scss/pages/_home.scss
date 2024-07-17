@@ -11,29 +11,17 @@
   
   
   
-  // CarouselAvis
-  
-  .img-darken {
-      filter: brightness(50%);
-    }
-    
-    .carousel-caption {
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      text-align: center;
-      background: rgba(0, 0, 0, 0.5); 
-      padding: 20px;
-      border-radius: 10px;
-    }
-    
-    .carousel-caption p {
-      font-size: 1.25rem;
-    }
-    
-    .blockquote-footer {
-      font-size: 1rem;
-    }
-  
+// Styles spécifiques pour les cartes d'avis
 
-
+.card {
+  background-color: $tertiary;
+  /*color: $white; */
+  margin-bottom: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  /*
+  .card-title,
+  .card-text {
+      color: $white; // Ensure card title and text are white
+  } */
+}
