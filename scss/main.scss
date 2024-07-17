@@ -1,74 +1,17 @@
 @import url("/node_modules/bootstrap-icons/font/bootstrap-icons.css");
+
 @import 'custom';
 @import 'responsive';
 
-//Accueil hero
-
-.hero-scene {
-  position: relative;
-  &::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-image: url(../assets/Singe.jpg);
-      background-size: cover;
-      background-position: center; /* Centre l'image */
-      filter: brightness(0.4); 
-  }
-
-  * {
-      // pour positionner les éléments devant le ::before
-      position: relative;
-  }
-
-  .hero-scene-content {
-      height: 400px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-  }
-}
 
 
-// HOME 
+// Import des fichiers layout
+@import 'layout/header';
+@import 'layout/footer';
 
-.text-justify{
-    text-align: justify;
-}
-
-.mb-custom {
-    margin-bottom: 50px;
-  }
-  
+// Import des fichiers pages
+@import 'pages/home';
 
 
-
-// CarouselAvis
-
-.img-darken {
-    filter: brightness(50%);
-  }
-  
-  .carousel-caption {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
-    background: rgba(0, 0, 0, 0.5); /* Optional: Add background for better text readability */
-    padding: 20px;
-    border-radius: 10px;
-  }
-  
-  .carousel-caption p {
-    font-size: 1.25rem;
-  }
-  
-  .blockquote-footer {
-    font-size: 1rem;
-  }
-
-  
+// Import des fichiers base
+@import 'base/reset';

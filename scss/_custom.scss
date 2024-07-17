@@ -13,10 +13,7 @@ $font-family-serif: "Lato", serif !default;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-html{
-  position: relative;
-  min-height: 100%;
-}
+
 // Application des polices
 h1, h2, h3, h4, h5, h6 {
     font-family: $font-family-sans-serif;
@@ -27,89 +24,4 @@ h1, h2, h3, h4, h5, h6 {
   }
 
 
-// Styles spécifiques pour la navbar
-.navbar {
-  background-color: $primary;
-  --bs-navbar-padding-x: 5px; // Définition de la variable CSS native
 
-  .nav-link,
-  .navbar-brand {
-    color: $dark; // Texte de la navbar en couleur dark
-
-    &:hover,
-    &:focus {
-      color: $secondary; // Couleur du texte au survol
-    }
-  }
-
-  // Style pour le menu burger
-  .navbar-toggler {
-    border-color: $dark; // Couleur de la bordure du bouton burger
-
-    .navbar-toggler-icon {
-      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-    }
-  }
-}
-
-.navbar-logo {
-  height: 70px; // Ajustez la hauteur du logo selon vos besoins
-}
-
-
-// Styles pour le footer
-.footer {
-  position: relative;
-  bottom: 0;
-  width: 100%;
-
-  .footer-hours {
-    background-color: $tertiary;
-    border: 2px solid darken($tertiary, 10%);
-    border-radius: 10px;
-    padding: 20px;
-    color: $dark;
-    
-    h4 {
-      font-weight: bold;
-    }
-
-    ul {
-      padding-left: 0;
-      list-style-type: none;
-
-      li {
-        padding: 5px 0;
-      }
-    }
-  }
-
-  .footer-legal {
-    color: $dark;
-    margin-bottom: 20px;
-
-    address {
-      font-style: normal;
-    }
-  }
-
-  .footer-social {
-    a {
-      color: $dark;
-      margin: 0 10px;
-      text-decoration: none;
-
-      &:hover {
-        color: $tertiary;
-      }
-    }
-  }
-
-  .footer-social i {
-    margin: 0 10px;
-  }
-
-  .footer-copyright {
-    color: $dark;
-  }
-}
