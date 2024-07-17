@@ -25,156 +25,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     font-size: 1rem;
   }
 }
-.navbar {
-  background-color: #A1AA75;
-  --bs-navbar-padding-x: 5px;
-}
-.navbar .nav-link,
-.navbar .navbar-brand {
-  color: #3A2A10;
-}
-.navbar .nav-link:hover, .navbar .nav-link:focus,
-.navbar .navbar-brand:hover,
-.navbar .navbar-brand:focus {
-  color: #5D6537;
-}
-.navbar .navbar-toggler {
-  border-color: #3A2A10;
-}
-.navbar .navbar-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-}
-
-.navbar-logo {
-  height: 70px;
-}
-
-.footer {
-  position: relative;
-  bottom: 0;
-  width: 100%;
-}
-.footer .footer-hours {
-  background-color: #E0D05C;
-  border: 2px solid #d8c431;
-  border-radius: 10px;
-  padding: 20px;
-  color: #3A2A10;
-}
-.footer .footer-hours h4, .footer .footer-hours .h4 {
-  font-weight: bold;
-}
-.footer .footer-hours ul {
-  padding-left: 0;
-  list-style-type: none;
-}
-.footer .footer-hours ul li {
-  padding: 5px 0;
-}
-.footer .footer-legal {
-  color: #3A2A10;
-  margin-bottom: 20px;
-}
-.footer .footer-legal address {
-  font-style: normal;
-}
-.footer .footer-social a {
-  color: #3A2A10;
-  margin: 0 10px;
-  text-decoration: none;
-}
-.footer .footer-social a:hover {
-  color: #E0D05C;
-}
-.footer .footer-social i {
-  margin: 0 10px;
-}
-.footer .footer-copyright {
-  color: #3A2A10;
-}
-
-.hero-scene {
-  position: relative;
-}
-.hero-scene::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url(../assets/Singe.jpg);
-  background-size: cover;
-  background-position: center; /* Centre l'image */
-  filter: brightness(0.4);
-}
-.hero-scene * {
-  position: relative;
-}
-.hero-scene .hero-scene-content {
-  height: 400px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.hero-scene {
-  position: relative;
-}
-.hero-scene::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url(../assets/Singe.jpg);
-  background-size: cover;
-  background-position: center; /* Centre l'image */
-  filter: brightness(0.4);
-}
-.hero-scene * {
-  position: relative;
-}
-.hero-scene .hero-scene-content {
-  height: 400px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.text-justify {
-  text-align: justify;
-}
-
-.mb-custom {
-  margin-bottom: 50px;
-}
-
-.img-darken {
-  filter: brightness(50%);
-}
-
-.carousel-caption {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  text-align: center;
-  background: rgba(0, 0, 0, 0.5); /* Optional: Add background for better text readability */
-  padding: 20px;
-  border-radius: 10px;
-}
-
-.carousel-caption p {
-  font-size: 1.25rem;
-}
-
-.blockquote-footer {
-  font-size: 1rem;
-}
-
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
  * Copyright 2011-2024 The Bootstrap Authors
@@ -12140,4 +11990,127 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+.navbar {
+  background-color: #A1AA75;
+  --bs-navbar-padding-x: 5px;
+}
+.navbar .nav-link,
+.navbar .navbar-brand {
+  color: #3A2A10;
+}
+.navbar .nav-link:hover, .navbar .nav-link:focus,
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+  color: #5D6537;
+}
+.navbar .navbar-toggler {
+  border-color: #3A2A10;
+}
+.navbar .navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-logo {
+  height: 70px;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+.footer .footer-hours {
+  background-color: #E0D05C;
+  border: 2px solid #d8c431;
+  border-radius: 10px;
+  padding: 20px;
+  color: #3A2A10;
+}
+.footer .footer-hours h4, .footer .footer-hours .h4 {
+  font-weight: bold;
+}
+.footer .footer-hours ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+.footer .footer-hours ul li {
+  padding: 5px 0;
+}
+.footer .footer-legal {
+  color: #3A2A10;
+  margin-bottom: 20px;
+}
+.footer .footer-legal address {
+  font-style: normal;
+}
+.footer .footer-social a {
+  color: #3A2A10;
+  margin: 0 10px;
+  text-decoration: none;
+}
+.footer .footer-social a:hover {
+  color: #E0D05C;
+}
+.footer .footer-social i {
+  margin: 0 10px;
+}
+.footer .footer-copyright {
+  color: #3A2A10;
+}
+
+.hero-scene {
+  position: relative;
+}
+.hero-scene::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../assets/Singe.jpg);
+  background-size: cover;
+  background-position: center; /* Centre l'image */
+  filter: brightness(0.4);
+}
+.hero-scene * {
+  position: relative;
+}
+.hero-scene .hero-scene-content {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.mb-custom {
+  margin-bottom: 50px;
+}
+
+.img-darken {
+  filter: brightness(50%);
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.carousel-caption p {
+  font-size: 1.25rem;
+}
+
+.blockquote-footer {
+  font-size: 1rem;
 }/*# sourceMappingURL=main.css.map */
