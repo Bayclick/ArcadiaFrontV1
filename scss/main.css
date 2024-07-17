@@ -12019,6 +12019,8 @@ textarea.form-control-lg {
   position: relative;
   bottom: 0;
   width: 100%;
+  background-color: #A1AA75;
+  color: #ffffff;
 }
 .footer .footer-hours {
   background-color: #E0D05C;
@@ -12044,6 +12046,11 @@ textarea.form-control-lg {
 .footer .footer-legal address {
   font-style: normal;
 }
+.footer .footer-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .footer .footer-social a {
   color: #3A2A10;
   margin: 0 10px;
@@ -12052,8 +12059,14 @@ textarea.form-control-lg {
 .footer .footer-social a:hover {
   color: #E0D05C;
 }
-.footer .footer-social i {
+.footer .footer-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .footer-social a {
   margin: 0 10px;
+  font-size: 1.5rem;
 }
 .footer .footer-copyright {
   color: #3A2A10;
