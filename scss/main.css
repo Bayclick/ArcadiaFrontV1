@@ -12117,4 +12117,66 @@ textarea.form-control-lg {
   .card-text {
       color: $white; // Ensure card title and text are white
   } */
+}
+
+.avis-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #E0D05C;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+.avis-container .avis-titre {
+  font-family: "Fredoka", sans-serif;
+  margin-bottom: 20px;
+  color: #3A2A10;
+}
+.avis-container .formulaire-avis {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.avis-container .formulaire-avis .form-group {
+  margin-bottom: 15px;
+}
+.avis-container .formulaire-avis label {
+  font-family: "Fredoka", sans-serif;
+  color: #3A2A10;
+}
+.avis-container .formulaire-avis .form-control {
+  border-radius: 5px;
+  border: 1px solid #5D6537;
+  padding: 10px;
+  font-family: "Lato", serif;
+}
+.avis-container .formulaire-avis .btn-primary {
+  background-color: #A1AA75;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1.2rem;
+  font-family: "Fredoka", sans-serif;
+}
+.avis-container .formulaire-avis .btn-primary:hover {
+  background-color: #5D6537;
+}
+.avis-container .liste-avis .carte-avis {
+  background-color: #E0D05C;
+  color: #ffffff;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.avis-container .liste-avis .carte-avis .carte-titre,
+.avis-container .liste-avis .carte-avis .carte-texte {
+  color: #ffffff;
+}
+.avis-container .liste-avis .carte-avis .carte-corps {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
 }/*# sourceMappingURL=main.css.map */
