@@ -11,12 +11,11 @@
         height: 100%;
         background-image: url(../assets/Singe.jpg);
         background-size: cover;
-        background-position: center; /* Centre l'image */
+        background-position: center; 
         filter: brightness(0.4); 
     }
   
     * {
-        // pour positionner les éléments devant le ::before
         position: relative;
     }
   
