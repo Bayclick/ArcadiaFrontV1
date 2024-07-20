@@ -12002,7 +12002,10 @@ textarea.form-control-lg {
 .navbar .nav-link:hover, .navbar .nav-link:focus,
 .navbar .navbar-brand:hover,
 .navbar .navbar-brand:focus {
-  color: #5D6537;
+  color: #E0D05C;
+}
+.navbar .navbar-nav .nav-item {
+  margin-left: auto;
 }
 .navbar .navbar-toggler {
   border-color: #3A2A10;
@@ -12013,6 +12016,7 @@ textarea.form-control-lg {
 
 .navbar-logo {
   height: 70px;
+  border-radius: 50%;
 }
 
 .footer {

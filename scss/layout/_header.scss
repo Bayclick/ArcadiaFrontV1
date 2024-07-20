@@ -9,10 +9,14 @@
   
       &:hover,
       &:focus {
-        color: $secondary; // Couleur du texte au survol
+        color: $tertiary; // Couleur du texte au survol
       }
     }
-  
+
+    .navbar-nav .nav-item {
+      margin-left: auto;
+    } 
+
     // Style pour le menu burger
     .navbar-toggler {
       border-color: $dark; // Couleur de la bordure du bouton burger
@@ -24,6 +28,6 @@
   }
   
   .navbar-logo {
-    height: 70px; // Ajustez la hauteur du logo selon vos besoins
+    height: 70px;
+    border-radius: 50%;
   }
-  
