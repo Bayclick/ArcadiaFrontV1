@@ -12185,6 +12185,55 @@ textarea.form-control-lg {
   padding: 20px;
 }
 
+.form-container {
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.custom-form-group {
+  margin-bottom: 15px;
+}
+.custom-form-group .custom-input {
+  border: 1px solid #5D6537;
+  padding: 10px;
+  color: #292222;
+}
+.custom-form-group .custom-input::-moz-placeholder {
+  color: #7d6767;
+}
+.custom-form-group .custom-input::placeholder {
+  color: #7d6767;
+}
+.custom-form-group .custom-label {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #5D6537;
+}
+
+.custom-check-label {
+  color: #5D6537;
+}
+
+.custom-btn {
+  background-color: #A1AA75;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1.2rem;
+}
+.custom-btn:hover {
+  background-color: #3f4425;
+}
+
+.custom-link {
+  color: #5D6537;
+}
+.custom-link:hover {
+  color: #3f4425;
+}
+
 @media (min-width: 1024px) {
   h1, .h1 {
     font-size: 3rem;
