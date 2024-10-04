@@ -35,7 +35,8 @@
 1. **Cloner le dépôt** :
    ```bash
    git clone https://github.com/Baylox/ArcadiaV1.git
-
+   ```
+2. **Installer les dépendances**
    ```bash
     composer install
-
+   ```
